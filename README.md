@@ -1,5 +1,3 @@
-# Adopticum
-
 GitHub Pages for Adopticum
 
 ## Heading 2
