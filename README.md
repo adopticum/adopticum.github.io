@@ -1,4 +1,4 @@
-# Adopticun
+# Adopticum
 
 GitHub Pages for Adopticum
 
