@@ -6,7 +6,7 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: air
 permalink: pretty
 encoding: "utf-8"
-locale: "sv_SE"
+locale: "sv-SE"
 
 defaults:
   # _pages
