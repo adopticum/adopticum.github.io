@@ -9,8 +9,9 @@ encoding: "utf-8"
 locale: "sv-SE"
 timezone: Europe/Stockholm
 
-logo: "/assets/img/adopticum-logo-text-only.svg"
-teaser: "/assets/img/code-500x300.png"
+logo: "/assets/images/adopticum-logo-text-only-color-transparent-raster-480x59.png"
+og_image: "/assets/images/adopticum-logo-icon-symbol.png"
+teaser: "/assets/images/code-500x300.png"
 search: true
 lunr:
   search_within_pages: true
