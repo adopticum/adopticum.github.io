@@ -8,6 +8,9 @@ permalink: pretty
 encoding: "utf-8"
 locale: "sv-SE"
 
+logo: "/assets/img/adopticum-logo-text-only.svg"
+teaser: "/assets/img/code-500x300.png"
+
 defaults:
   # _pages
   - scope:
