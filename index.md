@@ -1,6 +1,9 @@
 ---
 layout: single
+title: ""
 ---
+
+![Adopticum logo](/assets/img/adopticum-logo-text-only.svg)
 
 ## Adopticum GitHub Pages
 
