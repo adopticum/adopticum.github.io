@@ -2,6 +2,8 @@
 layout: single
 ---
 
+![Adopticum logo](/assets/img/adopticum-logo-text-only.svg)
+
 ## Adopticum GitHub Pages
 
 Landing page.
