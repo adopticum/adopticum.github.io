@@ -6,3 +6,8 @@ title: ""
 
 ## About
 TBA
+
+---
+
+Jekyll version
+{{ site.github.versions.jekyll }}

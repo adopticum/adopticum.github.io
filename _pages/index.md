@@ -3,7 +3,7 @@ layout: single
 title: ""
 ---
 
-![Adopticum logo](/assets/images/adopticum-logo-text-only.svg)
+![Adopticum logo](/assets/images/adopticum-logo-text-only.svg){: width="240" }
 
 ## Adopticum GitHub Pages
 
