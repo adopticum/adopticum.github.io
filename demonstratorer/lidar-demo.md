@@ -12,11 +12,11 @@ Det finns flera sensorer i VL53-serien med olika egenskaper t.ex. räckvidd, som
 
 I vår demonstrator styrs LiDAR-sensorn av en mikrokontroller (RP2040) som sedan skickar mätdata vidare över WiFi så att man kan ta emot den på en dator och visualisera den. Programmet på mikrokontrollern är skrivet i C++ och programmet på PC eller Mac för visualisering är skrivet i Python.
 
-Avståndsmätande sensorer som denna används i ett brett spann a tillämpningar som inkluderar robotar, industriell automation, drönare, hemautomation. De kan användas för att detektera närvaro, gester, objekt, flöden, undvika kollision, etc. 
-
 ![Avståndsdata från LiDAR-sensor](vl53l5cx-lidar-gui.png)
 *Figur 2 - Avståndsdata från LiDAR-sensor som visualiseras med falsk färg. Gult är nära, blått är längre bort.*
 
+Avståndsmätande sensorer som denna används i ett brett spann av tillämpningar som inkluderar robotar, industriell automation, drönare, hemautomation. De kan användas för att detektera närvaro, gester, objekt, flöden, undvika kollision, etc. 
+
 - Vilka ideer får du när du ser datan från denna sensor?
-- Vad skulle man kunna använda denna till?
+- Hur skulle man kunna använda denna data?
 - Kan man kombinera denna information med någon annan information?
