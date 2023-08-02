@@ -3,7 +3,7 @@ layout: single
 title: ""
 ---
 
-![Adopticum logo](/assets/images/adopticum-logo-text-only-color-transparent-raster-480x59.png)
+![Adopticum logo](/assets/images/adopticum-logo-text-only.svg)
 
 ## Adopticum GitHub Pages
 
