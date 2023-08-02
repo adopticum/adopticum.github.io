@@ -13,14 +13,14 @@ Sensorn används vanligtvis i olika tillämpningar såsom byggnadsautomatisering
 ![MLX90640](https://media.melexis.com/-/media/images/product-media/mlx90621/mlx90621-far-infrared-array-melexis.jpg)
 *Figur 1 - Melexis MLX90640 värmekamera litet format med 32x24 pixlar.*
 
-![[mlx90640-pen-crop.jpg]]
+![MLX90640 monterad på ett kretskort](mlx90640-pen-crop.jpg)
 *Figur 2 - MLX90640 monterad på ett kretskort.*
 
 I vår demonstrator styrs kameran av en mikrokontroller (RP2040) som sedan skickar datan vidare över WiFi så att man kan ta emot och visualisera den på en dator. Programmet på mikrokontrollern är skrivet i C++ och programmet på PC eller Mac för visualisering är skrivet i Python.
 
 För att visualisera information från en värmekamera brukar man använda *falsk färg*, vilket betyder att man använder en färgskala eller en gråskala där olika nyanser får representatera olika temperaturer. På detta sätt kan man göra det enkelt att se variationer i temperatur och framhäva föremål som är varmare eller kallare än de borde vara.
 
-![[thermal-image-hand.jpg]]
+![ En hand fotograferad av värmekameran](thermal-image-hand.jpg)
 *Figur 3 - En hand fotograferad av värmekameran och visualiserad med falsk färg.*
 
 [Termografi](https://en.wikipedia.org/wiki/Thermography) är en teknik som används för att mäta och visualisera temperaturförändringar på ytor med hjälp av värmekameror eller termiska avbildningssystem. Genom att mäta och analysera infraröd strålning som utstrålas från olika föremål eller ytor kan termografi användas för att upptäcka avvikelser från normala temperaturmönster. Termografi kan användas inom många områden som byggnads- och fastighetsunderhåll, inspektion av elektriska anläggningar, medicin, tillverkningsprocesser och mycket mer. Genom att upptäcka temperaturavvikelser i realtid kan termografi hjälpa till att identifiera potentiella problem eller fel innan de leder till mer allvarliga skador eller kostsamma reparationer.
