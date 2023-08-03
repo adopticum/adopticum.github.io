@@ -1,6 +1,6 @@
 ---
 title: "Nya demonstratorer"
-tags: markdown guide
+tags: [demo]
 layout: post
 ---
 
