@@ -76,6 +76,8 @@ feature_c:
 
 <div class="notice__info">{{ notice_quote | markdownify }}</div>
 
+---
+
 {% include feature_row id="feature_triple" %}
 
 {% include feature_row id="feature_a" type="right" %}
