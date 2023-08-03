@@ -1,17 +1,19 @@
 ---
-title: "ADOPTICUM ÄR SPECIALISTER PÅ OPTISK MÄTTEKNIK"
+title: "ADOPTICUM"
 layout: splash
 permalink: /splash/
 
 header:
   overlay_color: "#fff"
-  overlay_filter: "0.3"
+  overlay_filter: "0.5"
   overlay_image: https://h24-original.s3.amazonaws.com/204790/20568466-QhrEw.jpg
   actions:
     - label: "Senaste inlägg..."
       url: "https://adopticum.github.io/"
   #caption: "Photo credit: Adopticum"
-  excerpt: "Vi hjälper er till ökad konkurrenskraft genom tillämpad kamerateknik."
+ 
+excerpt: "SPECIALISTER PÅ OPTISK MÄTTEKNIK\
+  Vi hjälper er till ökad konkurrenskraft genom tillämpad kamerateknik."
 
 feature_triple:
   - image_path: https://dst15js82dk7j.cloudfront.net/204790/97070969-j6NMI.jpg
@@ -37,7 +39,7 @@ feature_a:
   - image_path: https://images.unsplash.com/photo-1587620962725-abab7fe55159
     #- image_path: https://images.unsplash.com/photo-1661956602153-23384936a1d3
     alt: "Källkod på bärbar dator"
-    caption: "Photo: Unsplash"
+    image_caption: "Photo: [Unsplash](https://unsplash.com/)"
     title: "Reserverad plats för innehåll att lyfta"
     excerpt: 'Detta är exempel på innehåll som kan formateras med *Markdown*. Justera bild till vänster med `type="right"`'
     url: "#"
@@ -47,7 +49,7 @@ feature_a:
 feature_b:
   - image_path: https://images.unsplash.com/photo-1523348837708-15d4a09cfac2
     alt: "Små plantor i krukor sett uppifrån"
-    caption: "Photo: Unsplash"
+    image_caption: "Photo: [Unsplash](https://unsplash.com/)"
     title: "Reserverad plats för innehåll att lyfta"
     excerpt: 'Detta är exempel på innehåll som kan formateras med *Markdown*. Justera bild till vänster med `type="left"`'
     url: "#"
@@ -57,7 +59,7 @@ feature_b:
 feature_c:
   - image_path: https://images.unsplash.com/photo-1568561586426-10f4ce2dafc5
     alt: "Industriell byggnad"
-    caption: "Photo: Unsplash"
+    image_caption: "Photo: [Unsplash](https://unsplash.com/)"
     title: "Reserverad plats för innehåll att lyfta"
     excerpt: 'Detta är exempel på innehåll som kan formateras med *Markdown*. Justera bild till vänster med `type="center"`'
     url: "#"
@@ -82,15 +84,3 @@ Vi vill med vår kompetens bidra till ökad konkurrenskraft hos företag verksam
 {% endcapture %}
 
 <div class="notice__info">{{ notice_quote | markdownify }}</div>
-
----
-
-<div class="notice">
-  <p>
-    Oavsett användningsområde och bransch kan vi hjälpa er med att välja teknisk lösning eller utveckla system. 
-    Vi driver projekt tillsammans med behovsägare, produktägare och andra specialister. 
-    Målet är att utveckla nya och innovativa lösningar i teknikens framkant. 
-    Vi vill med vår kompetens bidra till ökad konkurrenskraft hos företag verksamma i norra Sverige och ge upphov till nya produkter och tjänster.
-  </p>
-</div>
-
