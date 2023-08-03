@@ -2,6 +2,7 @@
 title: "ADOPTICUM"
 layout: splash
 permalink: /splash/
+excerpt: "SPECIALISTER PÅ OPTISK MÄTTEKNIK <br/>Vi hjälper er till ökad konkurrenskraft genom tillämpad kamerateknik."
 
 header:
   overlay_color: "#fff"
@@ -11,9 +12,6 @@ header:
     - label: "Senaste inlägg..."
       url: "https://adopticum.github.io/"
   #caption: "Photo credit: Adopticum"
- 
-excerpt: "SPECIALISTER PÅ OPTISK MÄTTEKNIK\
-  Vi hjälper er till ökad konkurrenskraft genom tillämpad kamerateknik."
 
 feature_triple:
   - image_path: https://dst15js82dk7j.cloudfront.net/204790/97070969-j6NMI.jpg
