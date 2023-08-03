@@ -1,6 +1,7 @@
 ---
 title: "Nya demonstratorer"
 tag: demo
+excerpt: "Under våren 2023 har vi börjat att ta fram nya teknikdemonstratorer inom projektet OPTIK. Teknikdemonstratorerna ska på ett enkelt sätt visa upp tekniken och göra den mer tillgänglig."
 ---
 
 Under våren 2023 har vi börjat att ta fram nya teknikdemonstratorer inom projektet OPTIK. Syftet med demonstratorerna är att på ett enkelt sätt kunna visa upp tekniken. Vi vill sänka tröskeln till att prova på teknik och göra den mer tillgänglig. Om fler människor får prova och laborera praktiskt tror vi att många fler ideer kommer att väckas :bulb:.
