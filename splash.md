@@ -11,14 +11,17 @@ header:
     - label: "Senaste inlägg..."
       url: "https://adopticum.github.io/"
   #caption: "Photo credit: Adopticum"
-  excerpt: "ADOPTICUM ÄR SPECIALISTER PÅ OPTISK MÄTTEKNIK
-Vi hjälper er till ökad konkurrenskraft genom tillämpad kamerateknik."
+
+excerpt: >
+  ADOPTICUM ÄR SPECIALISTER PÅ OPTISK MÄTTEKNIK
+  Vi hjälper er till ökad konkurrenskraft genom tillämpad kamerateknik.
 
 intro: 
-  excerpt: "Oavsett användningsområde och bransch kan vi hjälpa er med att välja teknisk lösning eller utveckla system.
-Vi driver projekt tillsammans med behovsägare, produktägare och andra specialister.
-Målet är att utveckla nya och innovativa lösningar i teknikens framkant. 
-Vi vill med vår kompetens bidra till ökad konkurrenskraft hos företag verksamma i norra Sverige och ge upphov till nya produkter och tjänster."
+  - excerpt: >
+    Oavsett användningsområde och bransch kan vi hjälpa er med att välja teknisk lösning eller utveckla system.
+    Vi driver projekt tillsammans med behovsägare, produktägare och andra specialister.
+    Målet är att utveckla nya och innovativa lösningar i teknikens framkant. 
+    Vi vill med vår kompetens bidra till ökad konkurrenskraft hos företag verksamma i norra Sverige och ge upphov till nya produkter och tjänster.
 
 feature_triple:
   - image_path: https://dst15js82dk7j.cloudfront.net/204790/97070969-j6NMI.jpg
