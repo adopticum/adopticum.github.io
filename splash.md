@@ -4,75 +4,82 @@ layout: splash
 permalink: /splash/
 
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_color: "#fff"
+  overlay_filter: "0.3"
   overlay_image: https://h24-original.s3.amazonaws.com/204790/20568466-QhrEw.jpg
   actions:
     - label: "Senaste inlägg..."
       url: "https://adopticum.github.io/"
-  caption: "Photo credit: Adopticum"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+  #caption: "Photo credit: Adopticum"
+  excerpt: "ADOPTICUM ÄR SPECIALISTER PÅ OPTISK MÄTTEKNIK
+Vi hjälper er till ökad konkurrenskraft genom tillämpad kamerateknik."
+
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  excerpt: "Oavsett användningsområde och bransch kan vi hjälpa er med att välja teknisk lösning eller utveckla system.
+Vi driver projekt tillsammans med behovsägare, produktägare och andra specialister.
+Målet är att utveckla nya och innovativa lösningar i teknikens framkant. 
+Vi vill med vår kompetens bidra till ökad konkurrenskraft hos företag verksamma i norra Sverige och ge upphov till nya produkter och tjänster."
 
-
-feature_row:
-  - image_path: https://dst15js82dk7j.cloudfront.net/204790/99335386-xjICV.jpg
+feature_triple:
+  - image_path: https://dst15js82dk7j.cloudfront.net/204790/97070969-j6NMI.jpg
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "Field work"
-    title: "Study & prototype"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    alt: "Fältarbete"
+    title: "Studie & prototyp"
+    excerpt: "Adopticum arbetar konkret tillsammans med våra kunder för att hitta lösningar."
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
 
   - image_path: https://h24-original.s3.amazonaws.com/204790/20601153-qr1Ht.jpg
-    alt: "Topological graph"
-    title: "Develop software"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    alt: "Topologiskt diagram"
+    title: "Skapa lösningar"
+    excerpt: "Vi har kompetens att tillämpa tekniken och bygga lösningar som fungerar."
 
-  - image_path: https://dst15js82dk7j.cloudfront.net/204790/97070969-j6NMI.jpg
-    alt: "3D scanning person"
-    title: "Educate & Inspire"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: https://dst15js82dk7j.cloudfront.net/204790/99335386-xjICV.jpg
+    alt: "3D-skannar person"
+    title: Inspirera & utbilda"
+    excerpt: "Vi vill att så många som möjligt ska få se hur roligt och givande teknik kan vara."
 
-feature_1:
-  - image_path: https://images.unsplash.com/photo-1523348837708-15d4a09cfac2
-    alt: "Small plats in pots from above"
-    title: "Placeholder Feature Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-
-feature_2:
+feature_a:
   - image_path: https://images.unsplash.com/photo-1587620962725-abab7fe55159
     #- image_path: https://images.unsplash.com/photo-1661956602153-23384936a1d3
-    alt: "Code on laptop computer"
-    title: "Placeholder Feature Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
+    alt: "Källkod på bärbar dator"
+    caption: "Photo: Unsplash"
+    title: "Reserverad plats innehålla att lyfta"
+    excerpt: 'Detta är exempel på innehåll som kan formateras med *Markdown*. Justera bild till vänster med `type="right"`'
+    url: "#"
+    btn_label: "Läs mer"
     btn_class: "btn--primary"
 
-feature_3:
+feature_b:
+  - image_path: https://images.unsplash.com/photo-1523348837708-15d4a09cfac2
+    alt: "Små plantor i krukor sett uppifrån"
+    caption: "Photo: Unsplash"
+    title: "Reserverad plats innehålla att lyfta"
+    excerpt: 'Detta är exempel på innehåll som kan formateras med *Markdown*. Justera bild till vänster med `type="left"`'
+    url: "#"
+    btn_label: "Läs mer"
+    btn_class: "btn--primary"
+
+feature_c:
   - image_path: https://images.unsplash.com/photo-1568561586426-10f4ce2dafc5
-    alt: "Industrial building"
-    title: "Placeholder Feature Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
+    alt: "Industriell byggnad"
+    caption: "Photo: Unsplash"
+    title: "Reserverad plats innehålla att lyfta"
+    excerpt: 'Detta är exempel på innehåll som kan formateras med *Markdown*. Justera bild till vänster med `type="center"`'
+    url: "#"
+    btn_label: "Läs mer"
     btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row id="feature_triple" %}
 
-{% include feature_row id="feature_1" type="left" %}
+{% include feature_row id="feature_a" type="right" %}
 
-{% include feature_row id="feature_2" type="right" %}
+{% include feature_row id="feature_b" type="left" %}
 
-{% include feature_row id="feature_3" type="center" %}
+{% include feature_row id="feature_c" type="center" %}
 
 ---
