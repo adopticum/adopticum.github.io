@@ -1,5 +1,5 @@
 ---
-title: "Splash Page"
+title: "ADOPTICUM ÄR SPECIALISTER PÅ OPTISK MÄTTEKNIK"
 layout: splash
 permalink: /splash/
 
@@ -11,8 +11,7 @@ header:
     - label: "Senaste inlägg..."
       url: "https://adopticum.github.io/"
   #caption: "Photo credit: Adopticum"
-
-excerpt: "ADOPTICUM ÄR SPECIALISTER PÅ OPTISK MÄTTEKNIK\n Vi hjälper er till ökad konkurrenskraft genom tillämpad kamerateknik."
+  excerpt: "Vi hjälper er till ökad konkurrenskraft genom tillämpad kamerateknik."
 
 feature_triple:
   - image_path: https://dst15js82dk7j.cloudfront.net/204790/97070969-j6NMI.jpg
@@ -39,7 +38,7 @@ feature_a:
     #- image_path: https://images.unsplash.com/photo-1661956602153-23384936a1d3
     alt: "Källkod på bärbar dator"
     caption: "Photo: Unsplash"
-    title: "Reserverad plats innehålla att lyfta"
+    title: "Reserverad plats för innehåll att lyfta"
     excerpt: 'Detta är exempel på innehåll som kan formateras med *Markdown*. Justera bild till vänster med `type="right"`'
     url: "#"
     btn_label: "Läs mer"
@@ -49,7 +48,7 @@ feature_b:
   - image_path: https://images.unsplash.com/photo-1523348837708-15d4a09cfac2
     alt: "Små plantor i krukor sett uppifrån"
     caption: "Photo: Unsplash"
-    title: "Reserverad plats innehålla att lyfta"
+    title: "Reserverad plats för innehåll att lyfta"
     excerpt: 'Detta är exempel på innehåll som kan formateras med *Markdown*. Justera bild till vänster med `type="left"`'
     url: "#"
     btn_label: "Läs mer"
@@ -59,14 +58,31 @@ feature_c:
   - image_path: https://images.unsplash.com/photo-1568561586426-10f4ce2dafc5
     alt: "Industriell byggnad"
     caption: "Photo: Unsplash"
-    title: "Reserverad plats innehålla att lyfta"
+    title: "Reserverad plats för innehåll att lyfta"
     excerpt: 'Detta är exempel på innehåll som kan formateras med *Markdown*. Justera bild till vänster med `type="center"`'
     url: "#"
     btn_label: "Läs mer"
     btn_class: "btn--primary"
 ---
 
-<!-- {% include feature_row id="intro" type="center" %} -->
+{% include feature_row id="feature_triple" %}
+
+{% include feature_row id="feature_a" type="right" %}
+
+{% include feature_row id="feature_b" type="left" %}
+
+{% include feature_row id="feature_c" type="center" %}
+
+{% capture notice_quote %}
+> Oavsett användningsområde och bransch kan vi hjälpa er med att välja teknisk lösning eller utveckla system. 
+Vi driver projekt tillsammans med behovsägare, produktägare och andra specialister. 
+Målet är att utveckla nya och innovativa lösningar i teknikens framkant. 
+Vi vill med vår kompetens bidra till ökad konkurrenskraft hos företag verksamma i norra Sverige och ge upphov till nya produkter och tjänster.
+{% endcapture %}
+
+<div class="notice__info">{{ notice_quote | markdownify }}</div>
+
+---
 
 <div class="notice">
   <p>
@@ -77,12 +93,3 @@ feature_c:
   </p>
 </div>
 
-{% include feature_row id="feature_triple" %}
-
-{% include feature_row id="feature_a" type="right" %}
-
-{% include feature_row id="feature_b" type="left" %}
-
-{% include feature_row id="feature_c" type="center" %}
-
----
