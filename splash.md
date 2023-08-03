@@ -78,6 +78,7 @@ feature_c:
 Vi driver projekt tillsammans med behovsägare, produktägare och andra specialister. 
 Målet är att utveckla nya och innovativa lösningar i teknikens framkant. 
 Vi vill med vår kompetens bidra till ökad konkurrenskraft hos företag verksamma i norra Sverige och ge upphov till nya produkter och tjänster.
+-- Kenth Johansson, VD
 {% endcapture %}
 
 <div class="notice__info">{{ notice_quote | markdownify }}</div>
