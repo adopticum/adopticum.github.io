@@ -67,6 +67,17 @@ feature_c:
     btn_class: "btn--primary"
 ---
 
+{% capture notice_quote %}
+> Oavsett användningsområde och bransch kan vi hjälpa er med att välja teknisk lösning eller utveckla system. 
+> Vi driver projekt tillsammans med behovsägare, produktägare och andra specialister. 
+> Målet är att utveckla nya och innovativa lösningar i teknikens framkant. 
+> Vi vill med vår kompetens bidra till ökad konkurrenskraft hos företag verksamma i norra Sverige och ge upphov till nya produkter och tjänster.
+>
+> -- Kenth Johansson, VD
+{% endcapture %}
+
+<div class="notice__info">{{ notice_quote | markdownify }}</div>
+
 {% include feature_row id="feature_triple" %}
 
 {% include feature_row id="feature_a" type="right" %}
@@ -75,12 +86,3 @@ feature_c:
 
 {% include feature_row id="feature_c" type="center" %}
 
-{% capture notice_quote %}
-> Oavsett användningsområde och bransch kan vi hjälpa er med att välja teknisk lösning eller utveckla system. 
-Vi driver projekt tillsammans med behovsägare, produktägare och andra specialister. 
-Målet är att utveckla nya och innovativa lösningar i teknikens framkant. 
-Vi vill med vår kompetens bidra till ökad konkurrenskraft hos företag verksamma i norra Sverige och ge upphov till nya produkter och tjänster.
--- Kenth Johansson, VD
-{% endcapture %}
-
-<div class="notice__info">{{ notice_quote | markdownify }}</div>
