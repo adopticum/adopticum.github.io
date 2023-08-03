@@ -16,7 +16,7 @@ intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 
 
-feature_triple:
+feature_row:
   - image_path: https://dst15js82dk7j.cloudfront.net/204790/99335386-xjICV.jpg
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "Field work"
@@ -44,6 +44,7 @@ feature_1:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+
 feature_2:
 	#- image_path: https://images.unsplash.com/photo-1661956602153-23384936a1d3
 	- image_path: https://images.unsplash.com/photo-1587620962725-abab7fe55159
@@ -53,6 +54,7 @@ feature_2:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+
 feature_3:
   - image_path: https://images.unsplash.com/photo-1568561586426-10f4ce2dafc5
     alt: "Industrial building"
@@ -65,7 +67,7 @@ feature_3:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id="feature_triple" %}
+{% include feature_row %}
 
 {% include feature_row id="feature_1" type="left" %}
 
