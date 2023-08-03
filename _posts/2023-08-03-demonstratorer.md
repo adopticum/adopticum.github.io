@@ -1,7 +1,6 @@
 ---
 title: "Nya demonstratorer"
-tags: [demo]
-layout: post
+tag: demo
 ---
 
 Under våren 2023 har vi börjat att ta fram nya teknikdemonstratorer inom projektet OPTIK. Syftet med demonstratorerna är att på ett enkelt sätt kunna visa upp tekniken. Vi vill sänka tröskeln till att prova på teknik och göra den mer tillgänglig. Om fler människor får prova och laborera praktiskt tror vi att många fler ideer kommer att väckas :bulb:.
