@@ -14,9 +14,6 @@ header:
 
 excerpt: "ADOPTICUM ÄR SPECIALISTER PÅ OPTISK MÄTTEKNIK\n Vi hjälper er till ökad konkurrenskraft genom tillämpad kamerateknik."
 
-intro: 
-  - excerpt: " Oavsett användningsområde och bransch kan vi hjälpa er med att välja teknisk lösning eller utveckla system. Vi driver projekt tillsammans med behovsägare, produktägare och andra specialister. Målet är att utveckla nya och innovativa lösningar i teknikens framkant. Vi vill med vår kompetens bidra till ökad konkurrenskraft hos företag verksamma i norra Sverige och ge upphov till nya produkter och tjänster."
-
 feature_triple:
   - image_path: https://dst15js82dk7j.cloudfront.net/204790/97070969-j6NMI.jpg
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
@@ -34,7 +31,7 @@ feature_triple:
 
   - image_path: https://dst15js82dk7j.cloudfront.net/204790/99335386-xjICV.jpg
     alt: "3D-skannar person"
-    title: Inspirera & utbilda"
+    title: "Inspirera & utbilda"
     excerpt: "Vi vill att så många som möjligt ska få se hur roligt och givande teknik kan vara."
 
 feature_a:
@@ -69,7 +66,16 @@ feature_c:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
+<!-- {% include feature_row id="intro" type="center" %} -->
+
+<div class="notice">
+  <p>
+    Oavsett användningsområde och bransch kan vi hjälpa er med att välja teknisk lösning eller utveckla system. 
+    Vi driver projekt tillsammans med behovsägare, produktägare och andra specialister. 
+    Målet är att utveckla nya och innovativa lösningar i teknikens framkant. 
+    Vi vill med vår kompetens bidra till ökad konkurrenskraft hos företag verksamma i norra Sverige och ge upphov till nya produkter och tjänster.
+  </p>
+</div>
 
 {% include feature_row id="feature_triple" %}
 
