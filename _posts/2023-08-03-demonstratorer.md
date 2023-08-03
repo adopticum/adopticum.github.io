@@ -17,5 +17,5 @@ I programvara kan man bygga in olika slags bearbetning och tolkning av data. Uti
 
 Du kan läsa mer här...
 
-- [Demonstartor med värmekamera](/demonstratorer/thermal-demo)
+- [Demonstrator med värmekamera](/demonstratorer/thermal-demo)
 - [Demonstrator med LiDAR](/demonstratorer/lidar-demo)

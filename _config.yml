@@ -17,6 +17,9 @@ search: true
 lunr:
   search_within_pages: true
 
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
 defaults:
   # _pages
   - scope:

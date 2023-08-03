@@ -1,12 +1,10 @@
 ---
 permalink: /
-layout: single
-title: ""
+layout: home
+title: "Adopticum GitHub Pages"
 ---
 
 ![Adopticum logo](/assets/images/adopticum-logo-text-only.svg){: width="240" }
-
-## Adopticum GitHub Pages
 
 Landing page.
 
