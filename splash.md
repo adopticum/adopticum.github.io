@@ -46,8 +46,8 @@ feature_1:
     btn_class: "btn--primary"
 
 feature_2:
+  - image_path: https://images.unsplash.com/photo-1587620962725-abab7fe55159
     #- image_path: https://images.unsplash.com/photo-1661956602153-23384936a1d3
-    - image_path: https://images.unsplash.com/photo-1587620962725-abab7fe55159
     alt: "Code on laptop computer"
     title: "Placeholder Feature Right Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
