@@ -11,7 +11,7 @@ timezone: Europe/Stockholm
 
 logo: "/assets/images/adopticum-logo-icon-symbol-64x64.png"
 dep-logo: "/assets/images/adopticum-logo-text-only-color-transparent-raster-480x59.png"
-og_image: "/assets/images/adopticum-logo-icon-symbol-128x128.png"
+og_image: "" #"/assets/images/adopticum-logo-icon-symbol-128x128.png"
 teaser: "/assets/images/code-500x300.png"
 search: true
 lunr:
