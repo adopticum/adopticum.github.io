@@ -5,9 +5,11 @@ tags:
   - guide
 ---
 
+Beskrivning av hur denna hemsida eller blog är uppbyggd med hjälp av GitHub Pages och Markdown.
+
 ### Mål
 
-När grundjobbet är gjort med att sätta upp skelettet för denna hemsida eller blog kommer det att vara mycket enkelt att följa mönster och exempel från befintliga inlägg och sidor. I det skedet räcker det att man kan __skriva text med Markdown och publicera med Git__.
+När grundjobbet är gjort med att sätta upp skelettet för denna hemsida, kommer det att vara mycket enkelt att följa mönster och exempel från befintliga inlägg och sidor. I det skedet räcker det att man kan __skriva text med Markdown och publicera med Git__.
 
 
 ### Teknik
@@ -31,11 +33,11 @@ Om man går man djupare och vill jobba med inställningar, mallar, etc stöter m
 - Enkel skriptning av sidor för t.ex. automatiska listor av inlägg skapas med *Liquid*-syntax.
 
 
-### Resurser
+## Resurser
 
 Här har jag samlat länkar till de exempel och dokumentation som har varit mest givande för att få detta att funka. 
 
-#### minimal-mistakes
+### minimal-mistakes
 
 [Exempelhemsida byggd med minimal-mistakes tema](https://mmistakes.github.io/minimal-mistakes/)
 
@@ -43,7 +45,7 @@ Här har jag samlat länkar till de exempel och dokumentation som har varit mest
 
 [Repo för själva minimal-mistakes tema](https://github.com/mmistakes/minimal-mistakes)
 
-#### Jekyll
+### Jekyll
 
 [Officiell dok](https://jekyllrb.com/docs/)
 
