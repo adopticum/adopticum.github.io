@@ -24,7 +24,7 @@ Ett tema till Jekyll som jag tycker ser bra ut. Dessutom är det bra dokumentera
 
 ### Avancerat
 
-Om man går man djupare och vill jobba med inställningar, mallar, etc stöter man på några ytterligare tekniker som Jekyll är byggd på. Typiskt finns det exempel att kopiera och klistra från. Men bör förstå YAML grundläggande.
+Om man går man djupare och vill jobba med inställningar, mallar, etc stöter man på några ytterligare tekniker som Jekyll är byggd på. Typiskt finns det exempel att kopiera och klistra från. Man bör förstå YAML grundläggande.
 
 - Konfiguration av Jekyll sker med *YAML*, främst i ```_config.yml```.
 - Parametrar och metadata kan definieras i filer som *"front matter"* vilket är YAML.
@@ -37,16 +37,13 @@ Här har jag samlat länkar till de exempel och dokumentation som har varit mest
 
 #### minimal-mistakes
 
-Exempelhemsida byggd med minimal-mistakes tema.
-https://mmistakes.github.io/minimal-mistakes/
+[Exempelhemsida byggd med minimal-mistakes tema](https://mmistakes.github.io/minimal-mistakes/)
 
-Koden till exempelhemsidan med minimal-mistakes tema. 
-https://github.com/mmistakes/minimal-mistakes/tree/master/docs
+[Koden till exempelhemsidan med minimal-mistakes tema](https://github.com/mmistakes/minimal-mistakes/tree/master/docs)
 
-Repo för själva minimal-mistakes tema.
-https://github.com/mmistakes/minimal-mistakes
-
+[Repo för själva minimal-mistakes tema](https://github.com/mmistakes/minimal-mistakes)
 
 #### Jekyll
-https://jekyllrb.com/docs/
+
+[Officiell dok](https://jekyllrb.com/docs/)
 

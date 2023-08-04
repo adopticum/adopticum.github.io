@@ -20,7 +20,6 @@ header:
 
 - __*provider*__ är ```youtube``` eller ```vimeo``` (oklart om det finns stöd för fler).
 - __*id*__ är videons id. På YouTube hittar du det i URL:en (exempelvis https://www.youtube.com/watch?v=```8Uug9_03nR0```)
----
 
 Om du istället vill infoga en video som vanligt i ett inlägg använder du istället en *include* med samma parametrar.
 
