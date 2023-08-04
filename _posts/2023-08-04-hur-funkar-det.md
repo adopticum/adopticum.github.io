@@ -14,11 +14,11 @@ När grundjobbet är gjort med att sätta upp skelettet för denna hemsida eller
 
 De här sidorna är byggda med följande teknikstapel:
 
-- GitHub Pages  
+- *GitHub Pages*\
 Fri tjänst för att publicera (statiska) hemsidor direkt från versionshanterat repo.
-- Jekyll  
+- *Jekyll*\
 Omvandlar text med Markdown till hemsidor med HTML+CSS. Jekyll är redan inbyggd i GitHub Pages och körs automatiskt efter varje ändring.
-- minimal-mistakes  
+- *minimal-mistakes*\
 Ett tema till Jekyll som jag tycker ser bra ut. Dessutom är det bra dokumenterat och man lär sig mycket om Jekyll+GitHub Pages från dok och exempel från detta tema.
 
 
