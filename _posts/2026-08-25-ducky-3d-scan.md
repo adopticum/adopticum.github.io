@@ -7,16 +7,10 @@ tags:
 
 # Ducky
 
-![[ducky-1024.jpg]]
-Wikilink image
-
-![Ducky](/assets/images/ducky-1024.jpg)
-Full link image
-
 ## AR QuickLook
 
 <div>
-    <a rel="ar" href="/assets/3d/ducky.usdz">
+    <a rel="ar" href="/assets/3d/ducky2.usdz">
         <img src="/assets/images/ducky-1024.jpg">
     </a>
 </div>
