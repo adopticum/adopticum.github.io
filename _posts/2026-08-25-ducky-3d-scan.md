@@ -10,7 +10,7 @@ tags:
 ## AR QuickLook
 
 <div>
-    <a rel="ar" href="/assets/3d/ducky2.usdz">
+    <a rel="ar" href="/assets/3d/ducky3.usdz">
         <img src="/assets/images/ducky-1024.jpg">
     </a>
 </div>
