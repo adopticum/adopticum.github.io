@@ -18,6 +18,11 @@ edits:
     max-width: 480px;
   }
 
+  .responsive-video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 </style>
 
 # Ducky 3D scan
@@ -92,12 +97,13 @@ I 3D-skannerprogramvaran finns det verktyg för att orientera modellen mot XYZ-a
 
 ## Resultat
 
-<video autoplay muted loop playsinline preload="auto"
-src="/assets/images/ducky/ducky-mesh-rotating-no-texture.mp4">
+<video controls autoplay muted loop playsinline preload="auto"
+class="responsive-video">
+  <source src="/assets/images/ducky/ducky-mesh-rotating-no-texture.mp4">
 </video>
 
-<video autoplay muted loop playsinline preload="auto"
-src="/assets/images/ducky/ducky-mesh-rotating-w-texture.mp4">
+<video controls autoplay muted loop playsinline preload="auto">
+  <source src="/assets/images/ducky/ducky-mesh-rotating-w-texture.mp4">
 </video>
 
 ## Visualisering
@@ -107,7 +113,7 @@ src="/assets/images/ducky/side-by-side-ar-model-and-real-ducky.jpg">
 
 Vi har exporterat och konverterat 3D-modellen till USDZ som är ett format som används för *augmented reality*. Med en iPhone eller iPad kan man placera det virtuella förmålet på en yta i det verkliga rummet och betrakta det från olika vinklar. Här har vi placerat den 3D-skannade modellen av ankan bredvid den verkliga ankan. Visst är modellen ganska lik originalet.
 
-### Augmented reality
+## Augmented reality
 
 Testa själv att placera ut ankan i ditt rum med AR QuickLook om du har en iPhone eller en iPad.
 
