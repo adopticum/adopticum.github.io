@@ -52,8 +52,11 @@ I det här fallet använder vi slumpvis utplacerade markörer med reflexprickar 
 
 ## Beskära
 
-![](/assets/images/ducky/exstar-hub-scan-data-raw.jpg|320)
-![](/assets/images/ducky/exstar-hub-scan-data-crop.jpg|320)
+<img class="half" alt="Scan data raw"
+src="/assets/images/ducky/exstar-hub-scan-data-raw.jpg">
+
+<img class="half" alt="Scan data crop"
+src="/assets/images/ducky/exstar-hub-scan-data-crop.jpg">
 
 Den råa scanningen innehåller förutom ankan, även delar av omgivningen, underlaget och markörerna. I det här steget markerar vi den data vi vill behålla respektive radera och skär bort allt som vi inte vill ta med. Efter det här steget genomför datorn beräkningar för att skapa ett tätt **punktmoln** av det vi har skannat. 
 
@@ -61,13 +64,15 @@ Det krävs en kraftfull dator med mycket RAM-minne för att hantera all data. An
 
 ## Punktmoln
 
-![](/assets/images/ducky/exstar-hub-point-cloud-no-color.jpg)
+<img class="half" alt="Point cloud"
+src="/assets/images/ducky/exstar-hub-point-cloud-no-color.jpg">
 
 Här ser vi punktmolnet som är resultatet av 3D-skanning. Vi kan bedöma hur mycket av objektet och hur detaljerat som vi lyckats avbilda verkligheten. 
 
 Notera att detaljer som näsborrarna och strukturen på hakremmen är med. Vi kan också se att blanka ytor som propelleraxeln, det svarta på hjälmen och den kromade niten är avbildade. Halsbandet, som både är blankt och har svår struktur, har bara delvis kommit med. Notera också att områden under hakan och inuti hjälmen blir som djupa dalar som skannern inte klarar att nå.
 
-![](/assets/images/ducky/exstar-hub-point-cloud-w-color.jpg)
+<img class="half" alt="Point cloud with color"
+src="/assets/images/ducky/exstar-hub-point-cloud-w-color.jpg">
 
 Här ser vi punktmolnet med färg. Själva 3D-skanningen sker med blå laser eller infrarött ljus och ger ingen färginformation. Einstar Rockit har en inbyggd färgkamera och vit belysning, som den använder för att kunna sätta färg på punktmolnet. 
 
@@ -75,7 +80,8 @@ Vid skanning kan man tänka på att omgivande belysning från lysrör eller sole
 
 ## Ytmodell (mesh)
 
-![](/assets/images/ducky/exstar-hub-meshing.jpg)
+<img class="half" alt="Mesh model"
+src="/assets/images/ducky/exstar-hub-meshing.jpg">
 
 Nästa steg är att binda ihop punkterna i punktmolnet till sammanhängande ytor, som kallas för *mesh* (nät av trianglar). Detta sker automatiskt men man väljer inställningar för filtrering, utjämning och strategi för att laga hål i nätet. Detta steg kräver också ganska mycket av datorn.
 
@@ -85,13 +91,18 @@ I 3D-skannerprogramvaran finns det verktyg för att orientera modellen mot XYZ-a
 
 ## Resultat
 
-![](/assets/images/ducky/ducky-mesh-rotating-no-texture.mp4)
+<video autoplay muted loop playsinline preload="auto">
+  /assets/images/ducky/ducky-mesh-rotating-no-texture.mp4
+</video>
 
-![](/assets/images/ducky/ducky-mesh-rotating-w-texture.mp4)
+<video autoplay muted loop playsinline preload="auto">
+  /assets/images/ducky/ducky-mesh-rotating-w-texture.mp4
+</video>
 
 ## Visualisering
 
-![](/assets/images/ducky/side-by-side-ar-model-and-real-ducky.jpg)
+<img class="half" alt="Mesh model"
+src="/assets/images/ducky/side-by-side-ar-model-and-real-ducky.jpg">
 
 Vi har exporterat och konverterat 3D-modellen till USDZ som är ett format som används för *augmented reality*. Med en iPhone eller iPad kan man placera det virtuella förmålet på en yta i det verkliga rummet och betrakta det från olika vinklar. Här har vi placerat den 3D-skannade modellen av ankan bredvid den verkliga ankan. Visst är modellen ganska lik originalet.
 
