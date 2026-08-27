@@ -27,6 +27,15 @@ edits:
 
 # Ducky 3D scan
 
+Vi har 3D-skannat den här badankan, som försöker vara lite tuffare än andra badankor.
+Se resultatet här och läs mer om hur 3D-modellen blev till.
+
+<video muted autoplay loop playsinline preload="auto"
+class="responsive-video">
+  <source src="/assets/images/ducky/ducky-mesh-rotating-w-texture.mp4">
+</video>
+
+
 ## Einstar Rockit 3D-skanner
 
 <img class="third" alt="Einstar Rockit"
@@ -97,14 +106,11 @@ I 3D-skannerprogramvaran finns det verktyg för att orientera modellen mot XYZ-a
 
 ## Resultat
 
-<video controls autoplay muted loop playsinline preload="auto"
+<video muted autoplay loop playsinline preload="auto"
 class="responsive-video">
   <source src="/assets/images/ducky/ducky-mesh-rotating-no-texture.mp4">
 </video>
 
-<video controls autoplay muted loop playsinline preload="auto">
-  <source src="/assets/images/ducky/ducky-mesh-rotating-w-texture.mp4">
-</video>
 
 ## Visualisering
 
@@ -115,7 +121,8 @@ Vi har exporterat och konverterat 3D-modellen till USDZ som är ett format som a
 
 ## Augmented reality
 
-Testa själv att placera ut ankan i ditt rum med AR QuickLook om du har en iPhone eller en iPad.
+Prova själv att placera ut ankan i ditt rum! 
+Det funkar med AR QuickLook om du har en iPhone eller en iPad.
 
 <div>
     <a rel="ar" href="/assets/3d/ducky3.usdz">
