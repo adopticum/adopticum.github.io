@@ -7,11 +7,25 @@ edits:
   - 2026-08-27
 ---
 
+<style>
+  .half {
+    width: 48%;
+    max-width: 600px;
+  }
+
+  .third {
+    width: 30%;
+    max-width: 480px;
+  }
+
+</style>
+
 # Ducky 3D scan
 
 ## Einstar Rockit 3D-skanner
 
-![](/assets/images/ducky/einstar-rockit-product-photo.webp|240)
+<img class="third" alt="Einstar Rockit"
+src="/assets/images/ducky/einstar-rockit-product-photo.webp">
 
 Einstar Rockit är en kompakt, handhållen 3D-skanner som används för att skapa digitala 3D-modeller av verkliga föremål. När man skannar använder man programvaran **EXStar Hub** från tillverkaren **Shining 3D**. Den finns till Windows och macOS.
 
